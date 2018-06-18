@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>sampleapp</id>
+    <name>Sample App</name>
+    <summary>Nextcloud Skeleton App</summary>
+    <description><![CDATA[Nextcloud Skeleton App]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="hero@example.com" >hero</author>
+    <namespace>SampleApp</namespace>
+    <category>tools</category>
+    <bugs>https://nextcloudjp.connpass.com</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Sample App</name>
+            <route>sampleapp.page.index</route>
+        </navigation>
+    </navigations>
+</info>
